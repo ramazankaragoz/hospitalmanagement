@@ -44,7 +44,9 @@ kullanıcı adı:administrator  password:123456
 -RESTEasy ile RESTful
 
 ### İleri de yapılacaklar
+
 -Hasta randevusu için android uygulama
+
 -UI için JSF
 
 
