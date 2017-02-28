@@ -19,8 +19,11 @@ NOT:Veritabanı isminiz hospitalmanagement olmalıdır.
 
 ### Dummy kullanıcı listesi;
 kullanıcı adı:patient@gmail.com  password:123456
+
 kullanıcı adı:doctor@gmail.com  password:123456
+
 kullanıcı adı:accountant@gmail.com  password:123456
+
 kullanıcı adı:administrator  password:123456
 
 ### Kullanılan Teknolojiler
