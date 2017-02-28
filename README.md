@@ -1,7 +1,9 @@
 ## Hospital Management System
 
 Gereksinimler;
+
 -Eclipse ve maven plugin
+
 -Tomcat v9.0
 
 hospitalmanagement.sql projenin içinde mevcuttur.
