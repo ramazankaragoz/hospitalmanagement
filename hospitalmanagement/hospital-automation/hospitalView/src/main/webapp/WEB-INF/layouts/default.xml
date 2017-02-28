@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="hospital.base" template="/WEB-INF/templates/default.jsp" >
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="home" extends="hospital.base" >
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="body" value="/WEB-INF/jsps/home.jsp" />
+	</definition>
+	
+	<definition name="login"  template="/WEB-INF/jsps/login.jsp" >
+	</definition>
+	<definition name="register"  template="/WEB-INF/jsps/register.jsp" >
+	</definition>
+	
+	<!-- Patient -->
+	<definition name="patient" extends="hospital.base" >
+		<put-attribute name="title" value="Patient" />
+		<put-attribute name="body" value="/WEB-INF/jsps/patient-jsp/patient.jsp" />
+	</definition>
+	<!-- Patient END -->
+	
+	<!-- Doctor -->
+	<definition name="doctor" extends="hospital.base" >
+		<put-attribute name="title" value="Doctor" />
+		<put-attribute name="body" value="/WEB-INF/jsps/doctor-jsp/doctor.jsp" />
+	</definition>
+	<!-- Doctor END -->
+	
+	<!-- Accountant -->
+	<definition name="accountant" extends="hospital.base" >
+		<put-attribute name="title" value="Accountant" />
+		<put-attribute name="body" value="/WEB-INF/jsps/accountant-jsp/accountant.jsp" />
+	</definition>
+	<!-- Accountant END -->
+	
+	<!-- Administrator -->
+	<definition name="administrator" extends="hospital.base" >
+		<put-attribute name="title" value="Administrator" />
+		<put-attribute name="body" value="/WEB-INF/jsps/administrator-jsp/administrator.jsp" />
+	</definition>
+	<!-- Administrator END -->
+</tiles-definitions>
