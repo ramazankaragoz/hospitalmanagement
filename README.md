@@ -31,8 +31,11 @@ kullanıcı adı:administrator  password:123456
 ### Kullanılan Teknolojiler
 
 -Spring
+
 -Spring-MVC
+
 -Apache Tiles
+
 -Hibernate
 
 ### NOT bu proje geliştirilme aşamasındadır.Şuan da kimlik doğrulama işlemleri yapıp kullanıcının yetkisine göre ilgili sayfaya yönlendirme işlemi yapıyor.
