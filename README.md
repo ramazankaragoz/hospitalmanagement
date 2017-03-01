@@ -12,10 +12,10 @@ Database bağlantısı için JNDI kullanıldı.
 
 Tomcat kuruldukdan sonra server projesinin içerisinde ki context.xml içerisine aşağıda ki konfigurasyon yapılmalı;
 
-// <Resource name="jdbc/hospitalmanagement" auth="Container" type="javax.sql.DataSource"
-		maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="KULLANICI ADINIZ" 
-		password="ŞİFRENİZ" driverClassName="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://localhost:3306/hospitalmanagement" />
+#### <Resource name="jdbc/hospitalmanagement" auth="Container" type="javax.sql.DataSource"
+#### 		maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="KULLANICI ADINIZ" 
+#### 		password="ŞİFRENİZ" driverClassName="com.mysql.jdbc.Driver"
+#### 		url="jdbc:mysql://localhost:3306/hospitalmanagement" />
     
 NOT:Veritabanı isminiz hospitalmanagement olmalıdır.
 
